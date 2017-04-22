@@ -1,1 +1,14 @@
 # Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/
+.idea/encodings.xml
+.idea/misc.xml
+.idea/workspace.xml
+target/
+mockitoexample.iml
+modules.xml
+vcs.xml
+uiDesigner.xml
+.idea

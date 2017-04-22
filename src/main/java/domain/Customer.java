@@ -6,6 +6,8 @@ public class Customer {
     private String lastName;
     private Integer customerId;
 
+    public Customer(){};
+
     public String getFirstName() {
         return firstName;
     }
@@ -30,8 +32,9 @@ public class Customer {
         this.customerId = customerId;
     }
 
-    public Customer(String customerName, Integer customerId) {
-        this.firstName = customerName;
+    public Customer(String firstName, String lastName, Integer customerId) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.customerId = customerId;
     }
 }
